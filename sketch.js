@@ -8,6 +8,6 @@ function draw() {
   background(200,255,200);
   fill(0, 10);
   for(let i=0; i<50; i++){
-  triangle(mouseX*i,mouseY+i,mouseX,i+200,i,i);
+  triangle(50*i,i,1000,i+300,i,i*i);
 }
 }
